@@ -237,11 +237,7 @@ class Chef
       end
 
       def package_name
-        if debian_family?
-          'clickhouse-server-base'
-        else
-          'clickhouse-server'
-        end
+        'clickhouse-server'
       end
 
       def install_clickhouse_server_package
