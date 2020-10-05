@@ -4,9 +4,9 @@ maintainer_email 'sre@vinted.com'
 license 'MIT'
 description 'Installs/Configures chef-clickhouse'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-issues_url 'https://github.com/vinted/chef-clickhouse/issues'
-source_url 'https://github.com/vinted/chef-clickhouse'
-version '0.8.0'
+issues_url 'https://github.com/hiepd/chef-clickhouse/issues'
+source_url 'https://github.com/hiepd/chef-clickhouse'
+version '0.8.1'
 chef_version '>= 12.5' if respond_to?(:chef_version)
 
 supports 'redhat'
